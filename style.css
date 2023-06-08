@@ -1,3 +1,4 @@
+
 img
 {
     width: 600px;
@@ -15,11 +16,31 @@ img
 
 h1
 {
-    font-size: 50px;
+    font-size: 70px;
 }
 
-li
+.div
 {
-    font-size: 30px;
+    background-color: maroon;
+    padding: 8px;
 }
 
+.inner
+{
+    background-color: white;
+
+}
+
+.inner .inner
+{
+    background-color: yellow;
+}
+
+.link
+{
+    display: block;
+    font-size: 34px;
+    padding: 32px;
+    margin: 16px;
+    color: maroon;
+}
